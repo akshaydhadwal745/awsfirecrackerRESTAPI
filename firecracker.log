@@ -45,10 +45,10 @@ FO:src/vmm/src/device_manager/mmio.rs:479] kick block rootfs.
 2025-04-16T17:08:55.283924000 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
 2025-04-16T17:08:56.307747922 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
 2025-04-16T17:08:57.334017525 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
-s-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 19891 us.
-2025-04-16T16:31:55.070934546 [anonymous-instance:main:WARN:src/vmm/src/devices/virtio/net/event_handler.rs:92] Received unknown event: ERROR from source: 3
-2025-04-16T16:33:33.755425043 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
-2025-04-16T16:37:46.346035119 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:10:05.940719771 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:10:06.963792792 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:10:07.988864847 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+: Uncategorized, message: "File descriptor in bad state" }
 2025-04-16T16:45:58.966394118 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
 2025-04-16T17:02:24.467362792 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
 16:28:35.875794067 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
