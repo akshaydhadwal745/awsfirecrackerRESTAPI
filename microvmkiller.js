@@ -46,6 +46,7 @@ function shutdown(dev_inf,apiSocket) {
     // });
 
     runCommand(`sudo ip link del ${ DEV_INTERFACE } 2>/dev/null`)
+    runCommand(`sudo pkill  -9 firecracker 2>/dev/null`)
     // Remove Firecracker socket if it exists (use sudo)
     if (fs.existsSync(API_SOCKET)) {
       execSync(`sudo rm -f ${API_SOCKET}`);
