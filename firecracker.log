@@ -1,0 +1,55 @@
+2025-04-16T16:28:53.718828958 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:53.721081638 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 7774 us.
+2025-04-16T16:28:54.071206535 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Put request on "/boot-source" with body "{\n          \"kernel_image_path\": \"vmlinux-6.1.102\",\n          \"boot_args\": \"console=ttyS0 reboot=k panic=1 pci=off\"\n      }".
+2025-04-16T16:28:54.092277867 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:54.096904142 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 25705 us.
+2025-04-16T16:28:54.587875537 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Put request on "/drives/rootfs" with body "{\n          \"drive_id\": \"rootfs\",\n          \"path_on_host\": \"ubuntu-24.04.ext4\",\n          \"is_root_device\": true,\n          \"is_read_only\": false\n      }".
+2025-04-16T16:28:54.606849311 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:54.606935970 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 19132 us.
+2025-04-16T16:28:54.940337022 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Put request on "/machine-config" with body "{\n          \"vcpu_count\": 2,\n          \"mem_size_mib\": 1024,\n          \"smt\": false\n      }".
+2025-04-16T16:28:54.956377353 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:54.956469622 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 16147 us.
+2025-04-16T16:28:55.231227869 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Put request on "/network-interfaces/net1" with body "{\n          \"iface_id\": \"net1\",\n          \"guest_mac\": \"06:00:AC:10:00:02\",\n          \"host_dev_name\": \"tap16\"\n      }".
+2025-04-16T16:28:55.241765209 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:55.241908893 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 10695 us.
+2025-04-16T16:28:55.477380422 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Put request on "/actions" with body "{\n          \"action_type\": \"InstanceStart\"\n      }".
+2025-04-16T16:28:55.482901974 [anonymous-instance:main:DEBUG:src/vmm/src/builder.rs:391] event_start: build microvm for boot
+2025-04-16T16:28:55.756775663 [anonymous-instance:main:DEBUG:src/vmm/src/device_manager/mmio.rs:95] acpi: Building AML for VirtIO device _SB_.V000. memory range: 0xd0000000:4096 irq: 5
+2025-04-16T16:28:55.757183420 [anonymous-instance:main:DEBUG:src/vmm/src/device_manager/mmio.rs:95] acpi: Building AML for VirtIO device _SB_.V001. memory range: 0xd0001000:4096 irq: 6
+2025-04-16T16:28:55.757358172 [anonymous-instance:main:DEBUG:src/vmm/src/devices/acpi/vmgenid.rs:61] vmgenid: building VMGenID device. Address: 0x000dfff0. IRQ: 7
+2025-04-16T16:28:55.757483372 [anonymous-instance:main:DEBUG:src/vmm/src/devices/acpi/vmgenid.rs:69] vmgenid: writing new generation ID to guest: 0xd9d338b6f507645ac0de168657251696
+2025-04-16T16:28:55.758034388 [anonymous-instance:main:DEBUG:src/vmm/src/arch/x86_64/mptable.rs:129] mptable: Allocated 324 bytes for MPTable 2 vCPUs at address 0x0009fc00
+2025-04-16T16:28:55.768854838 [anonymous-instance:main:DEBUG:src/vmm/src/acpi/mod.rs:70] acpi: Wrote table (684 bytes) at address: 0x0009fd44
+2025-04-16T16:28:55.769143532 [anonymous-instance:main:DEBUG:src/vmm/src/acpi/mod.rs:70] acpi: Wrote table (276 bytes) at address: 0x0009fff0
+2025-04-16T16:28:55.770105700 [anonymous-instance:main:DEBUG:src/vmm/src/acpi/mod.rs:70] acpi: Wrote table (72 bytes) at address: 0x000a0104
+2025-04-16T16:28:55.770152857 [anonymous-instance:main:DEBUG:src/vmm/src/acpi/mod.rs:70] acpi: Wrote table (52 bytes) at address: 0x000a014c
+2025-04-16T16:28:55.770185824 [anonymous-instance:main:DEBUG:src/vmm/src/acpi/mod.rs:151] acpi: Wrote RSDP (36 bytes) at address: 0x000e0000
+2025-04-16T16:28:55.792090473 [anonymous-instance:main:DEBUG:src/vmm/src/builder.rs:393] event_end: build microvm for boot
+2025-04-16T16:28:55.792167120 [anonymous-instance:main:DEBUG:src/vmm/src/builder.rs:395] event_start: boot microvm
+2025-04-16T16:28:55.792186379 [anonymous-instance:main:INFO:src/vmm/src/device_manager/mmio.rs:453] Artificially kick devices.
+2025-04-16T16:28:55.792658938 [anonymous-instance:fc_vcpu 0:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
+2025-04-16T16:28:55.797127634 [anonymous-instance:fc_vcpu 1:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
+2025-04-16T16:28:55.797413657 [anonymous-instance:main:DEBUG:src/vmm/src/builder.rs:400] event_end: boot microvm
+2025-04-16T16:28:55.797550554 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:28:55.797602666 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 320234 us.
+2025-04-16T16:30:07.321894335 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Patch request on "/vm" with body "{ \"state\": \"Paused\" }".
+2025-04-16T16:30:07.331414048 [anonymous-instance:main:INFO:src/vmm/src/rpc_interface.rs:709] 'pause vm' VMM action took 4172 us.
+2025-04-16T16:30:07.3322025-04-16T16:44:27.398662475 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-2025-04-16T16:49:00.868480043 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+s API call duration: 10279 us.
+2025-04-16T16:30:17.411970885 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:69] The API server received a Patch request on "/vm" with body "{2022025-04-16T16:49:45.643414311 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+FO:src/vmm/src/device_manager/mmio.rs:479] kick block rootfs.
+2025-04-16T16:30:17.418167336 [anonymous-instance:main:INFO:src/vmm/src/device_manager/mmio.rs:491] kick net net1.
+2025-04-16T16:30:17.421029598 [anonymous-instance:fc_vcpu 1:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
+2025-04-16T16:30:17.421559550 [anonymous-instance:fc_vcpu 0:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
+2025-04-16T16:30:17.424866388 [anonymous-instance:main:INFO:src/vmm/src/rpc_interface.rs:722] 'resume vm' VMM action took 6790 us.
+2025-04-16T16:30:17.424975705 [anonymous-instance:main:WARN:src/firecracker/src/api_server_adapter.rs:120] Got a spurious notification from api thread
+2025-04-16T16:30:17.431726747 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
+2025-04-16T16:30:17.431791755 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/mod.rs:180] 'resume vm' API request took 19826 us.
+2025-04-16T16:30:17.431856329 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 19891 us.
+2025-04-16T16:31:55.070934546 [anonymous-instance:main:WARN:src/vmm/src/devices/virtio/net/event_handler.rs:92] Received unknown event: ERROR from source: 3
+2025-04-16T16:33:33.755425043 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T16:37:46.346035119 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T16:45:58.966394118 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:02:24.467362792 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+16:28:35.875794067 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }

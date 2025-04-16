@@ -1,0 +1,1 @@
+sudo rm -rf squashfs-root/ ubuntu-24.04.* vmlinux-*
