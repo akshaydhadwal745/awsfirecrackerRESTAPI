@@ -41,12 +41,11 @@ s API call duration: 10279 us.
 FO:src/vmm/src/device_manager/mmio.rs:479] kick block rootfs.
 2025-04-16T16:30:17.418167336 [anonymous-instance:main:INFO:src/vmm/src/device_manager/mmio.rs:491] kick net net1.
 2025-04-16T16:30:17.421029598 [anonymous-instance:fc_vcpu 1:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
-2025-04-16T16:30:17.421559550 [anonymous-instance:fc_vcpu 0:WARN:src/vmm/src/vstate/vcpu/mod.rs:402] Received a VcpuEvent::Resume message with immediate_exit enabled. immediate_exit was disabled before proceeding
-2025-04-16T16:30:17.424866388 [anonymous-instance:main:INFO:src/vmm/src/rpc_interface.rs:722] 'resume vm' VMM action took 6790 us.
-2025-04-16T16:30:17.424975705 [anonymous-instance:main:WARN:src/firecracker/src/api_server_adapter.rs:120] Got a spurious notification from api thread
-2025-04-16T16:30:17.431726747 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/parsed_request.rs:163] The request was executed successfully. Status code: 204 No Content.
-2025-04-16T16:30:17.431791755 [anonymous-instance:fc_api:INFO:src/firecracker/src/api_server/mod.rs:180] 'resume vm' API request took 19826 us.
-2025-04-16T16:30:17.431856329 [anonymous-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 19891 us.
+2025-04-16T16:30:17.4215592025-04-16T17:08:50.168179958 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:08:55.283924000 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:08:56.307747922 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+2025-04-16T17:08:57.334017525 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
+s-instance:fc_api:DEBUG:src/firecracker/src/api_server/mod.rs:114] Total previous API call duration: 19891 us.
 2025-04-16T16:31:55.070934546 [anonymous-instance:main:WARN:src/vmm/src/devices/virtio/net/event_handler.rs:92] Received unknown event: ERROR from source: 3
 2025-04-16T16:33:33.755425043 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
 2025-04-16T16:37:46.346035119 [anonymous-instance:main:ERROR:src/vmm/src/devices/virtio/net/device.rs:561] Failed to write to tap: Os { code: 77, kind: Uncategorized, message: "File descriptor in bad state" }
